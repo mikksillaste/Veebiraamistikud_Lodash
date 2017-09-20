@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="title" />
+    <meta property="og:description" content="description" />
+
+    <title>Lodash x CanvasJS</title>
+</head>
+<body>
+    <h1>Lodash </h1>
+    <div class="canvas">
+		<canvas  width="960" height="400" id="myChart"></canvas>
+    </div>
+    <div class="lodash">
+        <div class="container validate">
+            <input type="text" class="js-validate" placeholder="Kirjuta siia midagi">
+            <div class="validate-text">Vajab rohkem lodashi</div>
+         </div>
+         <div class="container foreigners">
+             <p>Kõndides tänaval peatab sind end riidesemetesse mässinud mees.<br>
+                Läbi salli on kuulda:"Noh, tunned ära või võtan mütsi peast ära?"<br>
+                Sa ei tea kes ta on.<br>
+                Mingi suvakas.<br>
+                Ütleb, et nimeks on:<br>
+
+                <div class="stranger-container"><span class="stranger-name french-flag">Mîhkêl Ülânùîâ</span></div>
+                <p class="stranger-remove">Sa ei tea ühtegi sellist inimest</p>
+                <p class="stranger-exposed" >Mihkel Ulanuia, su vana klassivend hoopis.</p>
+                <button class="js-stranger stranger-button">Kasuta lodashi inimese peal</button></p>
+         </div>
+    </div>
+	<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js" integrity="sha256-IyWBFJYclFY8Pn32bwWdSHmV4B9M5mby5bhPHEmeY8w=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script>
+   window.jQuery || document.write('<script src="dependencies/jquery.js"><\/script>');
+</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js" integrity="sha384-1U8/aaUre/oWLTwR4xHzbtvFOCsVgsjjJTFuCeFf6mhr4F/0gKx7RYOe42SlHJ0Z" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/app.js"></script> 
+</body>
+</html>
